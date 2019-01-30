@@ -13,6 +13,10 @@
 		A849B57F21E541E0002A7BFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A849B57D21E541E0002A7BFD /* LaunchScreen.storyboard */; };
 		A849B58921E5540A002A7BFD /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A849B58821E5540A002A7BFD /* MoviesViewController.swift */; };
 		A849B58B21E57801002A7BFD /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A849B58A21E57801002A7BFD /* MovieTableViewCell.swift */; };
+		A87F137422000AC2000A88DE /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87F137322000AC2000A88DE /* DetailsViewController.swift */; };
+		A87F137822010C56000A88DE /* PostersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87F137722010C56000A88DE /* PostersViewController.swift */; };
+		A87F137A22010FBD000A88DE /* PosterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87F137922010FBD000A88DE /* PosterCollectionViewCell.swift */; };
+		A87F137C22012A03000A88DE /* iOS_11_glyph_icons in Resources */ = {isa = PBXBuildFile; fileRef = A87F137B22012A03000A88DE /* iOS_11_glyph_icons */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		A849B58021E541E0002A7BFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A849B58821E5540A002A7BFD /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		A849B58A21E57801002A7BFD /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		A87F137322000AC2000A88DE /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		A87F137722010C56000A88DE /* PostersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostersViewController.swift; sourceTree = "<group>"; };
+		A87F137922010FBD000A88DE /* PosterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterCollectionViewCell.swift; sourceTree = "<group>"; };
+		A87F137B22012A03000A88DE /* iOS_11_glyph_icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = iOS_11_glyph_icons; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +64,17 @@
 		A849B57321E541E0002A7BFD /* Flix */ = {
 			isa = PBXGroup;
 			children = (
+				A87F137922010FBD000A88DE /* PosterCollectionViewCell.swift */,
 				A849B57421E541E0002A7BFD /* AppDelegate.swift */,
 				A849B57821E541E0002A7BFD /* Main.storyboard */,
+				A87F137722010C56000A88DE /* PostersViewController.swift */,
 				A849B58A21E57801002A7BFD /* MovieTableViewCell.swift */,
+				A87F137322000AC2000A88DE /* DetailsViewController.swift */,
 				A849B58821E5540A002A7BFD /* MoviesViewController.swift */,
 				A849B57B21E541E0002A7BFD /* Assets.xcassets */,
 				A849B57D21E541E0002A7BFD /* LaunchScreen.storyboard */,
 				A849B58021E541E0002A7BFD /* Info.plist */,
+				A87F137B22012A03000A88DE /* iOS_11_glyph_icons */,
 			);
 			path = Flix;
 			sourceTree = "<group>";
@@ -125,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A87F137C22012A03000A88DE /* iOS_11_glyph_icons in Resources */,
 				A849B57F21E541E0002A7BFD /* LaunchScreen.storyboard in Resources */,
 				A849B57C21E541E0002A7BFD /* Assets.xcassets in Resources */,
 				A849B57A21E541E0002A7BFD /* Main.storyboard in Resources */,
@@ -138,9 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A87F137822010C56000A88DE /* PostersViewController.swift in Sources */,
 				A849B57521E541E0002A7BFD /* AppDelegate.swift in Sources */,
 				A849B58921E5540A002A7BFD /* MoviesViewController.swift in Sources */,
+				A87F137A22010FBD000A88DE /* PosterCollectionViewCell.swift in Sources */,
 				A849B58B21E57801002A7BFD /* MovieTableViewCell.swift in Sources */,
+				A87F137422000AC2000A88DE /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
